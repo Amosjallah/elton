@@ -1,0 +1,57 @@
+{
+  "name": "PROFILE LOGISTICS | The Stationery Clinic",
+  "short_name": "Stationery",
+  "description": "Emerging stationery company in Tema and Accra. Responding to all your needs.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "dir": "ltr",
+  "lang": "en",
+  "categories": ["business", "logistics"],
+  "icons": [
+    {
+      "src": "/profile-logistics-logo.jpg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "/profile-logistics-logo.jpg",
+      "sizes": "any",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "description": "Browse our stationery clinic catalog",
+      "url": "/shop?source=pwa-shortcut",
+      "icons": [
+        {
+          "src": "/profile-logistics-logo.jpg",
+          "sizes": "any"
+        }
+      ]
+    },
+    {
+      "name": "Track Shipment",
+      "short_name": "Track",
+      "description": "Track your shipment status",
+      "url": "/order-tracking?source=pwa-shortcut",
+      "icons": [
+        {
+          "src": "/profile-logistics-logo.jpg",
+          "sizes": "any"
+        }
+      ]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false,
+  "related_applications": []
+}
