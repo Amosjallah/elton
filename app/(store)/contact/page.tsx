@@ -153,7 +153,7 @@ export default function ContactPage() {
       <PageHero
         title="The Stationery Clinic"
         subtitle="We respond to all your stationery needs in Tema and Accra."
-        backgroundImage="/Whisk_835b10a10eab0caa2c7419d4a6e01102dr.jpeg"
+        backgroundImage="/product-safe.jpg"
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">

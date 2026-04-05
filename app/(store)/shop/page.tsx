@@ -202,7 +202,7 @@ function ShopContent() {
       <PageHero
         title="Shop All Products"
         subtitle="Browse our range of stationery products"
-        backgroundImage="/Whisk_6ec7df94ec3ca85b49644810b7fab2ecdr.jpeg"
+        backgroundImage="/printer.jpg"
       />
 
       {/* Mobile Filter Toggle */}
