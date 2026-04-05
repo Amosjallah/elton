@@ -23,8 +23,9 @@ export function useRecaptcha() {
     const getToken = useCallback(async (action: string): Promise<boolean> => {
         setError(null);
 
-        // If reCAPTCHA is not configured, allow through (dev mode)
-        if (!process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY) {
+        // If reCAPTCHA is not configured or is a placeholder, allow through (dev mode)
+        const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
+        if (!siteKey || siteKey.startsWith('your_') || siteKey === 'undefined') {
             return true;
         }
 
